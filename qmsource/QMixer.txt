@@ -1,0 +1,267 @@
+
+
+
+If you are having a hard time reading this file
+because the lines are too long, click EDIT, then
+WORDWRAP in Notepad and you'll be able to read
+it much more easily!
+
+
+
+
+
+Help/About File for Quick Mixer Version 1.7.2
+
+~~~
+Quick Mixer has multiligual capability!
+See release notes below...
+~~~
+
+Since some of this information is not immediately obvious, reading
+this file is apt to enhance your whole Quick Mixer experience:
+
+
+Un-install instructions for Quick Mixer are near the end of this file.
+Do NOT delete the MIXER.DEP and ST5UNST.LOG files in the
+Qmixer folder, they are used by the un-install program!
+
+
+Author: Evan Edwards
+E-mail: particle@neo.rr.com
+
+Application Name: Quick Mixer
+First Release: 19FEB2001- 1.0.0
+Last Release: 29MAR2001- 1.7.2
+
+Homepage: http://www.geocities.com/quickaudiomixer/index.html
+
+
+What Is Quick Mixer?
+
+
+Quick Mixer is a tray-agent alternative to the Windows Volume Control (SNDVOL32.EXE).
+Quick Mixer is re-sizeable and has many settings which affect the way it looks and acts.
+Quick Mixer is a great replacement for that little yellow speaker icon that may now be in your tray!
+Quick Mixer controls Main-Volume, Main-Treble, Main-Bass and up-to 16 playback audio sources!
+Quick Mixer gives you access to every available playback mute on your sound-card.
+Quick Mixer gives you access to the first on/off check under Advanced, Other Controls.
+Quick Mixer allows you to create 10 audio profiles and optionally starts up with a default profile.
+Quick Mixer scans your sound-card's mixer-line to offer you only the correct playback sliders.
+Quick Mixer has full install support and un-installs through the Control Panel.
+
+
+Basic Operation of Quick Mixer
+
+
+The TAB and SHIFT+TAB keys rotate the selected device-icon and slider forward and backward respectively.  Once a device-icon is selected, you can also control it's volume with the UP ARROW and DOWN ARROW keys; the PAGE UP and PAGE DOWN keys adjust the volume more quickly. The mixer must have system-focus in order for you to use the keyboard. You can also select any device-icon/slider directly by clicking the device-icon once or using the slider. Using any of the mute-buttons does not affect the current selection. Quick mixer remembers which device-icon/slider was selected when it is closed; upon restarting Quick mixer, that icon is selected.
+
+You can use the sliders to adjust the volume of the various sources. Or, you can left-click the device-icons to increase the volume and right-click them to decrease the volume.  If you hold either the left or right mouse-button down while the mouse-pointer is over a device-icon, the volume will slide up or down smoothly without any additional clicking. 
+
+If you'd like some sound, so you can hear the volume setting, double-click the title-bar and Quick Mixer will play the default Windows Sound which you can set in the Sounds Properties Control Panel Applet.
+
+The mute-buttons are near the bottom of Quick Mixer.  They appear red when muted and green otherwise.  When the Main-Volume is muted, the tray-icon acquires a red outline.  Not all audio sources have a mute control associated with them and, in this case, no mute button will be displayed below a control of this kind.  The volume-readouts are combined with the mute buttons to save space.
+
+If you have an on/off check-box located in 'Other Controls' when you press the Advanced button of the Windows Volume Control (SNDVOL32.EXE), Quick Mixer will give you access to the first one on the list.  This is usually something like "3D Stereo Enhancement".  If you have this, it will appear as Advanced Control #1 on Quick Mixer's menu and will be checked when turned on.  You can also toggle this using the F12 key, or by clicking the small special-control-box on the master-volume device-icon. The special-control-box is green when this is on and red when it is off.
+
+There are four different ways to display Quick Mixer's menu...
+
+>   Click the left-control-box (a small gray box located to the left of the title-bar).
+>   Right-click an empty area of the mixer's face or titlebar.
+>   Right-click the tray-icon. (a small picture of a volume-slider near the clock on your tool-bar).
+>   Press the F10 key while the mixer has system-focus.
+
+If you use the second method, right-clicking the mixer's face, you can right-drag to where you would like the menu to open, if you wish to do so.  If you use F10 the menu will appear where the mouse is presently located. ESCAPE always exits the menu without doing anything regardless of how you brought the menu up.
+
+The F6 key displays the Multi-Select... version of the General Settings menu, which is very handy indeed. The F7 key displays the Timed Mute... settings. And, the F8 key displays the Background Color... settings.  Remember, the mixer must have system-focus for you to use the keyboard.
+
+While we are on keys, the SPACE-BAR will hide the mixer. And, SHIFT+F4 will close and exit Quick Mixer.
+
+Clicking the right-control-box, will hide the mixer.  Or, you can select Hide Mixer on the menu. 
+
+To see the mixer, if it is hidden or covered by another application, just left-click the tray-icon once.  
+
+You can move (or drag) the mixer by any empty area of it's face, which is a bit easier than dragging the mixer via it's small title-bar.
+
+If you resize Quick Mixer vertically to a small enough size, the sliders will vanish and you can still control the volume in the aforementioned way by left-clicking and right-clicking the device-icons.
+
+Single Slider Mode truly allows you to size the mixer to some very small sizes, with or without a slider, and it still maintains it's full functionality. This can be selected from the General Settings sub-menu. Don't forget TAB changes between the sliders in Single Slider Mode too...
+
+You can 'skin' Quick Mixer with any .BMP file you wish tiled in the background.  Just place a file named SKIN.BMP in the same folder with Quick Mixer's program file (MIXER.EXE). There is a gray ('grey' to you British folk) skin called 'droplets' built-into Quick Mixer which displays in the absence of SKIN.BMP.
+
+  
+
+Quick Mixer's Control Keys
+
+
+TAB ................ Rotates the selected slider and device-icon forward.
+SHIFT+TAB .......... Rotates the selected slider and device-icon backward.
+UP ARROW ........... Turns up volume of selected slider.
+DOWN ARROW ......... Turns down volume of selected slider.
+PAGE UP ............ Turns up volume of selected slider quickly.
+PAGE DOWN .......... Turns down volume of selected slider quickly.
+ESC ................ Escapes from the menu without doing anything.
+SPACEBAR ........... Hides Quick Mixer.
+SHIFT+F4 ........... Close and exit Quick Mixer.
+F4 ................. Audio profiles tool-window.
+F5 ................. Runs WinAmp if installed in default location.
+F6 ................. General settings multi-select tool-window.
+F7 ................. Timed mute/unmute tool-window.
+F8 ................. Background color tool-window.
+F9 ................. Runs SNDVOL32.EXE if installed in default location.
+F10 ................ Pops up menu where mouse is located.
+F11 ................ Toggle master mute on/off.
+F12 ................ Toggle special-control on/off (eg. stereo enhancement)
+CONTROL+A .......... Toggle Auto-Hide mode on/off.
+CONTROL+O .......... Toggle On-Top mode on/off.
+CONTROL+E .......... Toggle Space Sliders Evenly mode on/off.
+CONTROL+R .......... Toggle Single Slider Mode on/off.
+CONTROL+P .......... Toggle Pointed Sliders mode on/off.
+CONTROL+G .......... Toggle Show Graduations mode on/off.
+CONTROL+K .......... Toggle Show Skin mode on/off.
+CONTROL+T .......... Toggle Show Tool Tips mode on/off.
+CONTROL+B .......... Toggle Show Treble/Bass Sliders mode on/off.
+CONTROL+V .......... Toggle Reverse Treble/Bass Logic mode on/off.
+CONTROL+Q .......... Quiet mode, all volumes turned down to 20%.
+CONTROL+Z  ......... Zero All Sliders.
+ALT+0 .............. Default audio profile (#0).
+ALT+1 .............. User Profile 1.    ...
+ALT+2 .............. User Profile 2. 
+ALT+3 .............. User Profile 3. 
+ALT+4 .............. User Profile 4.   Note: These also work with
+ALT+5 .............. User Profile 5.   the ALT+NUMPAD keys
+ALT+6 .............. User Profile 6.   zero through nine.
+ALT+7 .............. User Profile 7. 
+ALT+8 .............. User Profile 8. 
+ALT+9 .............. User Profile 9.    ...
+ALT+UP ARROW Move .. Quick Mixer up one pixel.
+ALT+DOWN ARROW ..... Move Quick Mixer down one pixel.
+ALT+LEFT ARROW ..... Move Quick Mixer left one pixel.
+ALT+RIGHT ARROW .... Move Quick Mixer right one pixel.
+NUMPAD 1 ........... Move Quick Mixer down and to the left one pixel.
+NUMPAD 2 ........... Move Quick Mixer down one pixel.
+NUMPAD 3 ........... Move Quick Mixer down and to the right one pixel.
+NUMPAD 4 ........... Move Quick Mixer to the left one pixel.
+NUMPAD 6 ........... Move Quick Mixer to the right one pixel.
+NUMPAD 7 ........... Move Quick Mixer up and to the left one pixel.
+NUMPAD 8 ........... Move Quick Mixer up one pixel.
+NUMPAD 9 ........... Move Quick Mixer up and to the right one pixel.
+CONTROL+NUMPAD 1 ... Move Quick Mixer down and to the left ten pixels.
+CONTROL+NUMPAD 2 ... Move Quick Mixer down ten pixels.
+CONTROL+NUMPAD 3 ... Move Quick Mixer down and to the right ten pixels.
+CONTROL+NUMPAD 4 ... Move Quick Mixer to the left ten pixels.
+CONTROL+NUMPAD 6 ... Move Quick Mixer to the right ten pixels.
+CONTROL+NUMPAD 7 ... Move Quick Mixer up and to the left ten pixels.
+CONTROL+NUMPAD 8 ... Move Quick Mixer up ten pixels.
+CONTORL+NUMPAD 9 ... Move Quick Mixer up and to the right ten pixels.
+
+
+Quick Mixer's General Settings
+
+
+Multi Select... this is very nice if you want to change several of the General Settings at one time. This duplicates all the general settings on a small, floating tool-window where you can change as many as you like as often as you like without having to negotiate the menu structure each time you want to change another setting.  You can also pop-up the general settings tool-window at any time by pressing the F6 key.
+
+Auto-Hide causes Quick Mixer to hide itself whenever it loses system-focus, that is whenever you click on anything other than Quick Mixer such as another application, the desk-top, or a Windows tool-bar.  As with all of the settings, Auto-hide is checked when ON and un-checked when OFF. With both Auto-Hide and Always On-Top checked, Quick Mixer will appear over-top of the Windows tool-bar much like the volume control you get with the yellow tray-speaker-icon you can turn on in the Windows Multimedia Properties control-panel applet.
+
+Always On-Top causes Quick Mixer to stay on top of most other applications and windows.
+
+Snap Sliders Evenly refers to when Quick Mixer is being re-sized. When this is turned on, Quick Mixer maintains even spacing between all sliders at all times for a very even appearance.  With this off, the sliders move around a bit more fluidly while the mixer is being resized.
+
+Single Slider Mode causes Quick Mixer to display only one slider.  In this mode, a set of two small buttons appear with left and right arrow-heads; these rotate through the device-icons and sliders. In addition to using the two arrow-head buttons, you can still use the TAB and SHIFT+TAB keys to rotate through the sources.  Single Slider Mode allows you to size the mixer to very small sizes while retaining full functionality.  You can also re-size the mixer small enough vertically that the slider will not show and still left-click and right-click the device-icon or use the UP ARROW and DOWN ARROW keys to adjust the volume.
+
+Pointed Sliders causes Quick Mixer to substitute pointed slider-handles for the rectangular ones. The pointed slider-handles look good with Show Graduations turned on.
+
+Show Graduations causes a series of 11 lines to be drawn across the mixer that indicate relative volume from 0% to 100% in increments of 10%.  The graduations re-size along with the mixer. Show Graduations and Show Skin are mutually exclusive, so only one can be checked at a time.
+
+Show Skin causes Quick Mixer to tile (or repeat) a bitmap (.BMP file) in the background of it's form. There is a gray skin called 'droplets' built-into Quick Mixer.  You can also specify any .BMP file as a skin to use with Quick Mixer by re-naming it SKIN.BMP and putting it in the same folder with Quick Mixer's program file (MIXER.EXE).  If you change this file, you will have to turn Show Skin off and then back on, or else re-start Quick Mixer,  for the change-over to take effect.
+
+Show Tool-Tips causes small help messages to appear if the mouse pointer hovers over a control on Quick Mixer's form.  This is the only option which is turned ON by default.
+
+Show Treb/Bass Sliders causes the treble and bass tone-sliders to be shown. This option will not even be visible on the menu if your sound-card or sound-driver does not support treble and bass adjustment and not all do.  Not all treble and bass controls work in the same way either,so there is no guarantee that they will work with your particular set-up.  I'm working on a better implementation of this in a future release that, I hope, will work even more often.  These controls do work with the majority of extant sound-cards, but not all of them.  -- I'd be interested in e-mail from you (see bottom of page) if they don't work, let me know what kind of sound-card you have and what the specific symptoms of the particular problem are in as much excruciating detail as is possible  -- thanks!
+
+Reverse Treb/Bass Logic causes the treble and bass sliders to operate the right way in the remote possibility that they work exactly backwards from what you would expect. Note: You'll only see this option on the menu if Show Treb/Bass Sliders exists.
+
+Note about Treble and Bass
+
+If you open the Windows Volume Control (START, RUN, C:\WINDOWS\SNDVOL32.EXE), and see an "Advanced" button under the main slider, click it. Only if you see treble and bass tone-controls on the form which pops up, should you see any options at all for treble and bass in Quick Mixer's menu.  
+ 
+
+Quick Mixer's Advanced Settings
+
+
+The advanced settings are settings that need more than just a check-mark.
+However, they are checked when they are activated...
+
+
+Timed Mute... allows you to enter a time at which all sound will be muted and another time at which all sound will be un-muted.  You can set either one or both of the times.  The 'Activated' checkbox next to each time must be checked if you wish the desired operation to be performed at the desired time.  This is nice, especially if you run ICQ with the sounds turned on, for keeping your machine quiet during the late evening and night without having to worry about it. The Timed Mute... settings can be displayed by pressing the F7 key.
+
+Background Color... allows you to change the color of the mixer's form.  Of course, you can only see it when you don't have Show Skin checked. However, when you do have the skin turned on, you might be able to briefly see glimpses of the form-background as you resize the mixer. If you had a mostly yellow skin, you could set this color to yellow and the flickering effect while resizing will be diminished greatly!  Of course, you can use this in the absence of a skin to make the mixer any color you want. You can also restore the mixer to the default Windows color here.  And, you can display the Background Color... settings by pressing the F8 key.
+
+Audio Profiles... allows you to save up to 10 audio profiles.  The default audio profile (#0) can be used, optionally, when Quick Mixer is started.  To set an audio profile, first set all of Quick Mixer's sliders and mutes the way you want them.  Then, type a name for your profile into a slot.  Then, click that slot's 'Save' button.  To use a profile, just click it's 'Load' button, or you can use the ALT+0 throught ALT+9 keys while either Quick Mixer or the Audio Profiles dialog is the active application.  To rename a profile, first click the profile's 'Load' button, then type a new name into that profile's slot, then click that slot's 'Save' button. If you check the checkbox near the bottom of the form, 'Start QM with default profile', then Quick Mixer will load profile #0 (the default profile) when the program is first started.
+
+
+Release Notes for Quick Mixer 1.4.0 - 1.7.2
+
+
+NEW!  (in ver. 1.4.0) If you have an on/off check-box located in 'Other Controls' when you press the Advanced button of the Windows Volume Control (SNDVOL32.EXE), Quick Mixer will give you access to the first one on the list.  This is usually something like "3D Stereo Enhancement" or "Digital Audio Only".  If you have this, it will appear as Advanced Control #1 on Quick Mixer's menu and will be checked when turned on.  You can also toggle this using the F12 key, or by clicking the small special-control-box on the master-volume device-icon. The special-control-box is green when this is on and red when it is off.
+
+NEW! (in ver. 1.5.0) Quick Mixer can now display all of it's menu and other text in any language which can be displayed with the 'MS Sans Serif' font!  But, you'll have to teach it your lingo! Just edit the 'Multi Language Support file', and rename it LANGUAGE.TXT.  This file must be in the same folder with Quick Mixer's program file (MIXER.EXE). See the file itself, for further, and very strict, instructions...  If you translate this file to another language, please send a copy to particle@neo.rr.com so he can distribute it with Quick Mixer.  -- Thanks! (Look for LANGUAGE.TXT in the LANGUAGE.ZIP file)
+
+Release 1.5.1 is just a minor revision to allow key-board shortcuts in the LANGUAGE.TXT file.  1.5.1 also contains a very minor cosmetic improvement in the special-control-box.
+
+Release 1.5.2 just fixes a problem with the tool-windows forgetting their second language while using multi-language support.
+
+Release 1.5.3 fixes a problem which was causing Quick Mixer to crash in extremely rare circumstances.  Much thanks to Danny Vergauwe of Belgium for his infinite patience and excellent technical skills -- without which I'd never been able to solve this problem!  1.5.3 also re-locates the special-control-box to a better place, the master-volume device-icon which is really where it should have been to start with.  It also makes this bigger so it easier to click.  You'll only see this if your sound-card supports it. (See 1.4.0 release notes, above.)  1.5.3 also adds Dutch, Romanian, and Serbian translations!  Thanks once again to Danny Vergauwe of Belgium for the Dutch translation. And, a special thanks to Milan Cekic of Yugoslovia for the excellent Serbian translation -- nice job! Also, special thanks to Alex Mihaila of Romania for the excellent Romanian translation -- very nice work as well!
+
+Release 1.5.4 fixes several problems: In the previous versions, if the menu was obtained by right-clicking the tray-icon while the mixer was hidden and then the user right-clicked a menu-item, Quick Mixer would crash, but only under Windows 98...  A somewhat obscure bug, but it has been corrected and it was tougher than I thought it would be to do so. :) A kind user, who is also an experienced programmer, pointed out that Quick Mixer was using a very large percentage of his processing resources!  After just a quick look at 'System Monitor' in Windows '98, I had to agree. Quick Mixer was using a ridiculously high percentage of processing resources!  I've made several modifications which are transparent to the user but drastically reduce the usage of processing capacity!  While Quick Mixer is visible but at rest, it now uses about 3% (on average) of my processing resources according to tests I've run with the simple 'System Monitor' tool and taking into account all other processor overhead. (Of course, this number will vary on your computer due to a number of factors.) And, when Quick Mixer is hidden, it now performs almost no processing at all, at least I can't measure any taking place! So, even though you won't notice any visible changes in this release, Quick Mixer has been improved greatly and, once again, this resulted from a user being kind enough to write with his concerns.  So, please, if you find any problem with Quick Mixer, don't hesitate to write!  -- particle@neo.rr.com (Evan Edwards) 
+
+Release 1.5.5 fixes the tray-icon not changing status from black to red and vice-versa when the mixer is hidden.  This updates very quickly now when mute is clicked on the menu from the tray, but to further reduce processing requirements, the tray icon may take up to 5 seconds to react if the mixer is hidden and the master-mute status is changed by some external means or another instance of Quick Mixer.  (You can run as many instances as your machine can handle, but only the last one you close will remember it's settings.)  Also, the mute butons react to clicking much more quickly when the mixer is visible and there is no delay to the mute buttons acting after the mixer is restored from the hidden state.  None of these various speed-ups are made at any expense to the processing savings enacted in version 1.5.4!  Quick mixer is at it's very best, so far, with this release!  
+
+Release 1.6.0 is full of good things!  Some more GUI speed-ups for better responsiveness to control changes.  Intelligent form sizing has been implemented!  Quick Mixer will go into and out of Single Slider Mode just by resizing the form horizontally far enough either way!  Since this is what you're trying to do anyway, Quick Mixer will just do it for you.  Also when you use the menu or the tool-window to turn Single Slider Mode on or off, the form is automatically resized. The form is also prevented from being resized too small to function properly.  I added quite a few contol-keys this time around (see the list above), there are now keys for just about every function! 
+
+Release 1.7.0 adds the capability to save and load audio profiles! (See 'advanced features' above.)
+
+Release 1.7.1 corrects a problem with Quick Mixer remembering it is supposed to be in Single Slider Mode upon starting.  This release also moves the QMIXER.INI file from the C: root to the QMIXER folder.
+
+Release 1.7.2 corrects a problem that could cause Quick Mixer to crash if an audio profile is saved with the first charachter of the name being a number.  Quick Mixer will now insert an underscore if a profile name starts with a number.  If you are presently getting a crash when you open the Audio Profiles dialog, simply delete the QMixer.ini file.  This release will keep the audio profiles located in the ini file from being corrupted again.
+
+
+
+Copyright
+
+
+Quick Mixer is copyright © 2001 by Evan R. Edwards, all rights reserved.
+
+If you are interested in acquiring the rights to Quick Mixer, please
+feel free to contact the author with your proposal.
+
+
+Distribution
+
+
+You MAY distribute Quick Mixer, by any means, as long as you distribute an ORIGINAL QMIXER.ZIP or QMIXERLITE.ZIP release-file with all of it's ORIGINAL internal, compressed files unmodified and intact. You MAY make back-ups, give Quick Mixer to someone on disk, even offer it for download on your server, as long as it is an ORIGINAL QMIXER.ZIP or QMIXERLITE.ZIP release file.
+
+
+Un-installing Quick Mixer
+ 
+
+If you installed Quick Mixer using the installation program, then you SHOULD use the Control Panel's Add/Remove Programs applet in the unlikely event that you'd ever want to un-install Quick Mixer.  Failure to use Add/Remove will leave a useless entry in the list of installed programs there - a waste of a few bytes.  However, there are freeware utilities which remove such 'dead-entries'. There are no registry settings, nor is there any software located anywhere other than the QMIXER folder, so this 'dead entry' is the only undesirable consequence of improper un-installation as in the case of merely deleting the QMIXER folder.
+
+Open the Control Panel (START, SETTINGS, CONTROL PANEL), and open the ADD/REMOVE PROGRAMS applet, move down the list to you find 'Qmixer' and highlight that entry by left-clicking it once.  Then, click the 'Add/Remove...' button, you will be prompted through Quick Mixer's removal.  The only file that needs to be removed manually is the C:\QMIXER.INI file, which you can just drag to the recycle bin. As always, be very careful when deleting files in your boot-root! Use the Recycle Bin and make very sure you have only deleted QMIXER.INI before you empty it.  
+
+
+Contact Information
+
+
+For comments, suggestions, bug-reports, etc... e-mail the author, Evan Edwards, at:
+particle@neo.rr.com 
+
+
+Optional Payment
+ 
+If you like Quick Mixer enough that you'd be willing to pay a dollar for it,
+the author would be more than happy to accept...
+
+Evan Edwards
+1706 Saint Elmo Avenue NE
+Canton, OH 44705-1754
+US

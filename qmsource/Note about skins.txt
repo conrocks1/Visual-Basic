@@ -1,0 +1,31 @@
+Quick Mixer can use ANY .BMP (Windows Bitmap) file as a skin.
+
+The file must be named "skin.bmp" and exist in the QMixer folder.
+
+Seamless Tiles make the best skins.  
+
+You can find THOUSANDS of seamless tiles on the internet!
+
+Just go to http://www.yahoo.com and use the search-term,
+"seamless tiles" to find them.
+
+It doesn't matter what file-type they are!  You can save
+them and convert them to the .BMP type in one easy step.
+
+If you are using Internet Explorer as your browser, just
+right-click the picture you wish to use as a skin.
+
+Click "Save Picture As.." on the menu which pops up.
+
+Change to the C:\Program Files\QMixer folder.
+
+Change "File name:" field to "skin".
+
+Change "Save as type:" to "Bitmap (*.bmp)"
+
+Click the "Save" button.
+
+Now, just toggle Quick Mixer's "Show Skin" option off and
+back on.  
+
+That's all there is to it...
